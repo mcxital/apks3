@@ -1,4 +1,3 @@
-@'
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
@@ -145,4 +144,3 @@ begin
     end process;
 
 end Behavioral;
-'@ | Out-File -Encoding utf8 tb/i2c_master_tb.vhd
